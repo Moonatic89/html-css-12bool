@@ -1,16 +1,21 @@
-body {
-    /* background-color: black; */
-}
-
 .row [class*=col-] {
-    height: 200px;
     background-color: #FFC0CB;
     text-align: center;
-    border: 1px solid black;
 }
 
 span {
     width: 100%;
     line-height: 200px;
     vertical-align: middle;
+}
+
+.edge {
+    border: 1px solid black;
+    height: 200px;
+    padding: 3px;
+}
+
+#nest {
+    background-color: #F07F80;
+    border: 1px solid white;
 }
