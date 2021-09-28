@@ -1,12 +1,9 @@
 .row [class*=col-] {
     background-color: #FFC0CB;
     text-align: center;
-}
-
-span {
-    width: 100%;
-    line-height: 200px;
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .edge {
@@ -16,6 +13,11 @@ span {
 }
 
 #nest {
+    align-items: stretch;
+}
+
+#nested {
+    min-height: 100%;
     background-color: #F07F80;
     border: 1px solid white;
 }
