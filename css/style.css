@@ -12,11 +12,11 @@
     padding: 3px;
 }
 
-#nest {
+.row>.nest[class*=col] {
     align-items: stretch;
 }
 
-#nested {
+.row>.nested {
     min-height: 100%;
     background-color: #F07F80;
     border: 1px solid white;
