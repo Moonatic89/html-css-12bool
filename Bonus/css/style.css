@@ -54,3 +54,26 @@
 }
 
 /* #endregion */
+
+.score_text, .menu, .play_again {
+    left: 83%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.score_text, .menu {
+    font-size: 4vw;
+}
+
+.score_text {
+    color: white;
+}
+
+.play_again {
+    font-size: 2.5vw;
+    color: crimson;
+}
+
+.menu {
+    color: yellow;
+}
