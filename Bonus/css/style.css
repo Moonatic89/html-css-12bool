@@ -17,6 +17,22 @@
 
 /* #region Colors */
 
+.c_blk {
+    background-color: black;
+}
+
+.c_red {
+    background-color: crimson;
+}
+
+.c_grn {
+    background-color: limegreen;
+}
+
+.c_orn {
+    background-color: orangered;
+}
+
 .c_brd {
     background-color: #666666;
 }
